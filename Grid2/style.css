@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, #d62a8c, #c43ba1, #ae4ab2, #9356c0, #7261c8, #5974d7, #3a85e1, #0094e7, #00b0f4, #00cbf8, #00e4f6, #5ffbf1);
+}
+.container{
+    max-width: 1800px;
+    height: 800px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+[class*=col-]{
+    border: 2px solid black;
+    float: left;
+}
+.cleaner{
+    clear: both;
+}
+.maxHeight1{
+    height: 66%; 
+    background-color: white;
+    margin: 0px 20px;
+    margin-bottom: 20px;
+    
+}
+.maxHeight2{
+    height: 66%; 
+    background-color: white;
+    margin-bottom: 20px;
+}
+.three1{
+    height: 32%;
+    background-color: white;
+    margin-left: 20px ;
+}
+.three2{
+    height: 33%;
+    background-color: white;
+}
+.three3{
+    height: 30%;
+    background-color: white;
+    position: absolute;
+    bottom:34.5%;
+    width:14.25% !important
+    
+}
+.three4{
+    height: 32%;
+    background-color: white;
+    position: absolute;
+    left:81.3%;
+    bottom:34%;
+    
+}
+.three5{
+    height: 30%;
+    background-color: white;
+    position: absolute;
+    bottom:34.5%;
+    left:15.8%;
+    width: 14.25% !important
+    
+}
+.six1{
+    height: 33%;
+    background-color: white;
+}
+.six2{
+    height: 33%;
+    background-color: white;
+    margin: 0px 20px;
+}
+.six3{
+    height: 33%;
+    background-color: white;
+    margin-right: 20px;
+}
+.three6{
+    height: 33%;
+    background-color: white;
+}

@@ -1,0 +1,73 @@
+
+.container{
+    max-width: 1800px;
+    height: 700px;
+    margin: auto;
+    padding-bottom: 20px;
+    font-size: 30px;
+    
+}
+[class*=col-]{
+text-align: center;
+border: 2px solid black;
+}
+.first{
+    margin: 15px;
+}
+.second{
+    padding-top: 30px;
+}
+.third{
+    padding-top: 150px;
+}
+.four{
+    padding-top: 40px;
+}
+
+.Header{
+    height: 10%;
+    background-color: #fec5bb;
+    color: black;
+    float: left;
+}
+.Hero{
+    height: 30%;
+    background-color: #dda15e;
+    color: black;
+    float: left;
+    
+}
+.Menu{
+    height: 61.10%;
+    background-color: #cdb4db;
+    color: black;
+    float: left;
+}
+.Main{
+    height: 30%;
+    background-color: #e07a5f;
+    color: black;
+    float: right;
+}
+.Banner{
+    height: 15%;
+    background-color: #b08968;
+    color: black;
+    float: right;
+}
+.Extra{
+    height: 15%;
+    background-color: #48cae4;
+    color: black;
+    float: right;
+}
+.Image{
+    height: 15%;
+    background-color: #f9c74f;
+    color: black;
+    float: right;
+}
+.cleaner{
+    clear: both;
+
+}
